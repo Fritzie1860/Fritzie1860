@@ -1,0 +1,32 @@
+name: generate snake
+
+on:
+  schedule:
+    # Menit 0, tiap 12 jam -> 2x sehari (00:00 dan 12:00 UTC).
+    # Jangan tulis "* */12 * * *": field pertama itu menit, dan "*" berarti
+    # tiap menit, jadi workflow jalan 120x sehari dan bisa di-throttle GitHub.
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      # svg-only lebih cepat karena skip render GIF.
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+
+      # Push hasilnya ke branch "output" supaya nggak ngotorin history main.
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
