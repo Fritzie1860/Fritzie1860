@@ -39,6 +39,26 @@ and [Puppeteer + Jest](https://github.com/Fritzie1860/basic-puppeteer-jest), plu
 
 **Workflow** Git, GitHub Actions
 
+## Stats
+
+<!-- SVG ini di-generate tiap hari oleh .github/workflows/readme-cards.yml dan
+     disimpan di repo, bukan diambil dari server orang lain tiap kali halaman
+     dibuka. Jadi nggak bisa blank gara-gara layanan pihak ketiga down. -->
+
+<img src="./profile/stats.svg" alt="GitHub stats" height="150" />
+<img src="./profile/top-langs.svg" alt="Top languages" height="150" />
+
+<!-- SPOTIFY — belum aktif.
+     Butuh kamu klik "Connect with Spotify" dulu di
+     https://spotify-github-profile.kittinanx.com/api/login
+     Habis itu kamu dapat uid. Ganti UID_KAMU di bawah, terus hapus komentar ini.
+     Baca dulu catatan keamanannya sebelum connect.
+
+<a href="https://open.spotify.com/user/UID_KAMU">
+  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=UID_KAMU&cover_image=true&theme=compact&bar_color=53b14f&bar_color_cover=true" alt="Now playing on Spotify" />
+</a>
+-->
+
 ## Contribution graph
 
 <picture>
