@@ -40,7 +40,7 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           options: >-
-            username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=transparent
+            username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=transparent
 
       - name: commit cards
         run: |

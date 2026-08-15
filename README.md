@@ -19,11 +19,17 @@ and lunch might be on me. 🍜
 
 <!-- Sengaja 49%, bukan 50%: dua gambar 50% plus spasi di antaranya melebihi
      100% dan bikin yang kedua turun ke baris bawah. Atribut style nggak dipakai
-     karena GitHub nyaring itu dari README. Height dilepas biar rasio gambarnya
-     nggak ketarik. -->
+     karena GitHub nyaring itu dari README.
+
+     align="top" bikin kedua kartu rata atas. Tanpa itu, keduanya rata bawah dan
+     kelihatan bertingkat kalau tingginya beda.
+
+     Tinggi kartu ditentukan jumlah barisnya, jadi disamain dari sisi konten:
+     kartu stats 3 baris, top-langs juga dibikin 3 baris lewat langs_count=6
+     di .github/workflows/readme-cards.yml. -->
 <p align="left">
-  <img src="./profile/stats.svg" alt="GitHub stats" width="49%" />
-  <img src="./profile/top-langs.svg" alt="Top languages" width="49%" />
+  <img src="./profile/stats.svg" alt="GitHub stats" width="49%" align="top" />
+  <img src="./profile/top-langs.svg" alt="Top languages" width="49%" align="top" />
 </p>
 
 
@@ -53,19 +59,21 @@ A few I'd point you to first:
 
 ## 🛠️ Tech Stack
 
-**Testing**
+<!-- Catatan slug: 'postgre' itu nggak valid di skillicons, balikinnya SVG kosong.
+     Yang benar 'postgres'. Sudah dibetulkan di bawah.
 
-<!-- skillicons nggak punya ikon Playwright, padahal itu tool utama. Dua badge
-     di bawah nambal itu. Kalau kamu pakai Postman/JMeter/Jira di kantor,
-     tinggal bilang, ikonnya ada semua di skillicons. -->
+     Playwright dan Puppeteer nggak ada di skillicons, jadi dua ikon terakhir
+     diambil dari devicon lewat jsDelivr. Tingginya dipatok 48px, sama dengan
+     ukuran default ikon skillicons, biar sebaris dan seragam.
 
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?style=for-the-badge&logo=puppeteer&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+     Mau nambah? Postman, JMeter, dan Jira ada di skillicons — tinggal sisipin
+     slug-nya ke daftar i= di bawah. -->
 
-**Building & tooling**
-
-[![My Skills](https://skillicons.dev/icons?i=playwright,js,react,nodejs,express,mongodb,mysql,git&theme=dark)](https://skillicons.dev)
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb,mysql,postgres,git,jest&theme=dark" alt="JavaScript, React, Node.js, Express, MongoDB, MySQL, PostgreSQL, Git, Jest" height="48" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg" alt="Playwright" height="48" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/puppeteer/puppeteer-original.svg" alt="Puppeteer" height="48" />
+</p>
 
 ## 🌱 Currently Learning
 
