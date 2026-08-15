@@ -39,8 +39,15 @@ jobs:
           card: top-langs
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+          # exclude_repo ngeluarin repo yang ngaco-in gambaran bahasa:
+          #   Dasar_Pengolahan-Citra-Digital + Genetic-Algorithms-Example
+          #     -> dua tugas kampus, bikin Jupyter Notebook jadi 69,55%
+          #   pkl -> tugas sekolah Laravel; tanpa dibuang, Blade naik ke 29,3%
+          # Setelah ketiganya dibuang, JavaScript jadi ~65,8%, yang jauh lebih
+          # mewakili kerjaan kamu sekarang. Mau salah satu dibalikin? Hapus aja
+          # namanya dari daftar di bawah.
           options: >-
-            username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=transparent
+            username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=transparent&exclude_repo=Dasar_Pengolahan-Citra-Digital,Genetic-Algorithms-Example,pkl
 
       - name: commit cards
         run: |

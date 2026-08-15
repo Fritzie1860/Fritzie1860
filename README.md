@@ -17,19 +17,22 @@ background helps here — I read the code I'm testing instead of only clicking t
 I also just like talking to people. Bring up tech and we'll be there a while. Bring up food
 and lunch might be on me. 🍜
 
-<!-- Sengaja 49%, bukan 50%: dua gambar 50% plus spasi di antaranya melebihi
-     100% dan bikin yang kedua turun ke baris bawah. Atribut style nggak dipakai
-     karena GitHub nyaring itu dari README.
+<!-- Height dipatok sama, width dilepas biar ngikut rasio masing-masing kartu.
+     Ini cara yang bener: tinggi dijamin sama, lebar nyesuaikan sendiri.
 
-     align="top" bikin kedua kartu rata atas. Tanpa itu, keduanya rata bawah dan
-     kelihatan bertingkat kalau tingginya beda.
+     Kenapa 170: dimensi asli stats.svg 359.8x145 (rasio 2.48) dan top-langs.svg
+     300x165 setelah langs_count=6 (rasio 1.82). Di tinggi 170, lebarnya jadi
+     ~422px + ~309px = ~731px. Kolom README profil sekitar 860px, jadi masih
+     aman sebaris dengan sisa ruang.
 
-     Tinggi kartu ditentukan jumlah barisnya, jadi disamain dari sisi konten:
-     kartu stats 3 baris, top-langs juga dibikin 3 baris lewat langs_count=6
-     di .github/workflows/readme-cards.yml. -->
+     Jangan naikin height lewat ~185, total lebarnya bakal lewat kolom dan kartu
+     kedua turun ke bawah. Itu batas amannya.
+
+     align="top" tetap dipasang sebagai jaring pengaman kalau tingginya nanti
+     bergeser sedikit. -->
 <p align="left">
-  <img src="./profile/stats.svg" alt="GitHub stats" width="49%" align="top" />
-  <img src="./profile/top-langs.svg" alt="Top languages" width="49%" align="top" />
+  <img src="./profile/stats.svg" alt="GitHub stats" height="170" align="top" />
+  <img src="./profile/top-langs.svg" alt="Top languages" height="170" align="top" />
 </p>
 
 
@@ -66,14 +69,22 @@ A few I'd point you to first:
      diambil dari devicon lewat jsDelivr. Tingginya dipatok 48px, sama dengan
      ukuran default ikon skillicons, biar sebaris dan seragam.
 
-     Mau nambah? Postman, JMeter, dan Jira ada di skillicons — tinggal sisipin
-     slug-nya ke daftar i= di bawah. -->
+     KOREKSI dari komentar sebelumnya: JMeter dan Jira TIDAK ada di skillicons.
+     Sudah aku tes, slug 'jmeter', 'k6', dan 'jira' balikin SVG kosong 256 byte.
+     Yang ada di skillicons: 'postman' dan 'selenium'.
+     k6 diambil dari devicon. JMeter nggak ada di devicon maupun vectorlogo,
+     jadi dipakai badge shields.io di baris Performance di bawah. -->
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb,mysql,postgres,git,jest&theme=dark" alt="JavaScript, React, Node.js, Express, MongoDB, MySQL, PostgreSQL, Git, Jest" height="48" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg" alt="Playwright" height="48" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/puppeteer/puppeteer-original.svg" alt="Puppeteer" height="48" />
 </p>
+
+**Performance testing**
+
+![Apache JMeter](https://img.shields.io/badge/Apache%20JMeter-D22128?style=for-the-badge&logo=apachejmeter&logoColor=white)
+![k6](https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white)
 
 ## 🌱 Currently Learning
 
@@ -97,9 +108,7 @@ A few I'd point you to first:
 
 ## 📬 Get in Touch
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fritzie-primananda/)
-
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:primanandafritzie@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fritzie-primananda/) [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:primanandafritzie@gmail.com)
 
 Thanks for stopping by. If you're building something and want a second pair of eyes on it,
 I'd love to hear about it. 🐛
