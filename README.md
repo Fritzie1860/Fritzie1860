@@ -1,33 +1,31 @@
 # Hi, I'm Fritzie 👋
 
+## 🚀 About Me
+
 I'm a QA Engineer at [MIFX](https://www.mifx.com), based in Jakarta.
 
 Let me be straight about where I stand. I still call myself junior, and in automation I'm
 genuinely still learning. Manual QA is where I'm strongest — hand me a PRD and I'll take
-it apart: the edge cases, the contradictions, the states nobody bothered to specify. On a
-single login form I'll sit with it until I've covered the whitespace in credentials, the
+it apart. On a single login form I'll sit with it until I've covered the whitespace in credentials, the
 case sensitivity, the session after logout, and what happens when you retry right after
-dismissing an error. That patience is most of the job.
+dismissing an error. That "patience" is most of the job.
 
 Right now I'm exploring **agentic AI in testing**, running my own POCs to find out where it
-actually helps and where it just adds confident-sounding noise. Coming from a fullstack
+actually helps and where it just adds confident-sounding noise. Coming from a basic programming
 background helps here — I read the code I'm testing instead of only clicking through it.
 
 I also just like talking to people. Bring up tech and we'll be there a while. Bring up food
 and lunch might be on me. 🍜
 
-<img src="./profile/stats.svg" alt="GitHub stats" height="160" />
-<img src="./profile/top-langs.svg" alt="Top languages" height="160" />
+<!-- Sengaja 49%, bukan 50%: dua gambar 50% plus spasi di antaranya melebihi
+     100% dan bikin yang kedua turun ke baris bawah. Atribut style nggak dipakai
+     karena GitHub nyaring itu dari README. Height dilepas biar rasio gambarnya
+     nggak ketarik. -->
+<p align="left">
+  <img src="./profile/stats.svg" alt="GitHub stats" width="49%" />
+  <img src="./profile/top-langs.svg" alt="Top languages" width="49%" />
+</p>
 
-## 🚀 About Me
-
-- 🔭 Currently testing a **live trading platform** — where a wrong number is a real loss, not a cosmetic bug
-- 📋 **Manual QA is my strong suit.** Give me requirements and I'll come back with the cases you didn't ask for
-- 🤖 Exploring **agentic AI for testing** through hands-on POCs — curious, not evangelical about it
-- 🌱 Building up my **automation** side with Playwright, one suite at a time
-- 🌉 Fullstack background, so I can read a PR and talk to developers in their own terms
-- 💬 Ask me about **test case design, PRD review, API testing, and writing bug reports people actually act on**
-- ⚡ Fun fact: my favourite bugs are the ones that only show up on the second try
 
 ## 🧪 Selected Work
 
@@ -41,6 +39,17 @@ and [Puppeteer + Jest](https://github.com/Fritzie1860/basic-puppeteer-jest), plu
 [Tokopedia Play clone](https://github.com/Fritzie1860/FinalProject-TokpedPlayClone)
 ([frontend](https://github.com/Fritzie1860/frontend-tokpedplayclone) ·
 [backend](https://github.com/Fritzie1860/backend-tokpedplayclone)) from my bootcamp days.
+
+## ✍️ Writing
+
+I write about testing on Medium, in a series called
+[**test, testing, tested**](https://medium.com/@primanandafritzie/list/test-testing-tested-3f8bddc0b493).
+A few I'd point you to first:
+
+- [**Watch Your Step! A Practical Guide For Requirements Elicitation and Analysis**](https://medium.com/@primanandafritzie/watch-your-step-getting-right-a-practical-guide-for-requirements-elicitation-and-analysis-22297eacbbb4) — how I approach requirements before a single test case exists
+- [**Performance Testing untuk Anak Umur 6 Tahun**](https://medium.com/@primanandafritzie/performance-testing-untuk-anak-umur-6-tahun-1a00052d9484) — performance testing explained like you're six
+- [**Playing at Playwright**](https://medium.com/@primanandafritzie/playing-at-playwright-7c3000241de3) — getting started with Playwright
+- [**Benchmarking Analysis: Learning From the Smart Kids in Class**](https://medium.com/@primanandafritzie/benchmarking-analysis-learning-from-the-smart-kids-in-class-ea6115df8f46) — what benchmarking looks like in practice
 
 ## 🛠️ Tech Stack
 
