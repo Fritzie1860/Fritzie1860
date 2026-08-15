@@ -21,7 +21,6 @@ clicking through it. That shows up in the bugs I find.
 | --- | --- | --- |
 | [**qa-submission_ui-test**](https://github.com/Fritzie1860/qa-submission_ui-test) | UI test suite for the login flow on saucedemo.com — 6 positive and 7 negative scenarios, covering whitespace and case-sensitivity in credentials, session retention, and re-login after a dismissed error | Playwright Test, JavaScript |
 | [**qa-submission_api-test**](https://github.com/Fritzie1860/qa-submission_api-test) | API test suite for reqres.in built on Playwright's `APIRequestContext`, covering response schema, headers, response time, unsupported HTTP methods, and malformed query params | Playwright Test, JavaScript |
-| [**kartukata**](https://github.com/Fritzie1860/kartukata) · [live demo](https://fritzie1860.github.io/kartukata/) | Flashcard app for drilling Indonesian verbal reasoning tests — 482 synonym and 1,060 antonym pairs, shuffled into sessions of any size. Built it because I was studying for those tests myself | React 19, Vite, Framer Motion |
 
 Also here: practice repos for [visual regression testing](https://github.com/Fritzie1860/udemy-visual-regression-testing)
 and [Puppeteer + Jest](https://github.com/Fritzie1860/basic-puppeteer-jest), plus a fullstack
