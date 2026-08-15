@@ -65,7 +65,7 @@ A few I'd point you to first:
 
 **Building & tooling**
 
-[![My Skills](https://skillicons.dev/icons?i=js,react,vite,tailwind,nodejs,express,mongodb,git,githubactions&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=playwright,js,react,nodejs,express,mongodb,mysql,git&theme=dark)](https://skillicons.dev)
 
 ## 🌱 Currently Learning
 
@@ -90,6 +90,7 @@ A few I'd point you to first:
 ## 📬 Get in Touch
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fritzie-primananda/)
+
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:primanandafritzie@gmail.com)
 
 Thanks for stopping by. If you're building something and want a second pair of eyes on it,
