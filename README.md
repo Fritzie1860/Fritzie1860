@@ -1,15 +1,20 @@
 # Hi, I'm Fritzie 👋
 
-I'm a QA Engineer at [MIFX](https://www.mifx.com), based in Jakarta. I test web UIs and
-APIs, mostly with Playwright.
+I'm a QA Engineer at [MIFX](https://www.mifx.com), based in Jakarta.
 
-I came into QA from a fullstack background, so I tend to read the code I'm testing rather
-than only clicking through it. And I'm the kind of tester who doesn't stop at the happy
-path — on a single login form I'll sit with it until I've covered the whitespace in
-credentials, the case sensitivity, the session after logout, and what happens when you
-retry right after dismissing an error. That patience is most of the job.
+Let me be straight about where I stand. I still call myself junior, and in automation I'm
+genuinely still learning. Manual QA is where I'm strongest — hand me a PRD and I'll take
+it apart: the edge cases, the contradictions, the states nobody bothered to specify. On a
+single login form I'll sit with it until I've covered the whitespace in credentials, the
+case sensitivity, the session after logout, and what happens when you retry right after
+dismissing an error. That patience is most of the job.
 
-Always happy to talk testing, so don't hesitate to reach out. 🙂
+Right now I'm exploring **agentic AI in testing**, running my own POCs to find out where it
+actually helps and where it just adds confident-sounding noise. Coming from a fullstack
+background helps here — I read the code I'm testing instead of only clicking through it.
+
+I also just like talking to people. Bring up tech and we'll be there a while. Bring up food
+and lunch might be on me. 🍜
 
 <img src="./profile/stats.svg" alt="GitHub stats" height="160" />
 <img src="./profile/top-langs.svg" alt="Top languages" height="160" />
@@ -17,9 +22,11 @@ Always happy to talk testing, so don't hesitate to reach out. 🙂
 ## 🚀 About Me
 
 - 🔭 Currently testing a **live trading platform** — where a wrong number is a real loss, not a cosmetic bug
-- 🧪 I care most about **negative cases**: the inputs nobody thought to try
+- 📋 **Manual QA is my strong suit.** Give me requirements and I'll come back with the cases you didn't ask for
+- 🤖 Exploring **agentic AI for testing** through hands-on POCs — curious, not evangelical about it
+- 🌱 Building up my **automation** side with Playwright, one suite at a time
 - 🌉 Fullstack background, so I can read a PR and talk to developers in their own terms
-- 💬 Ask me about **test case design, Playwright, API testing, and writing bug reports people actually act on**
+- 💬 Ask me about **test case design, PRD review, API testing, and writing bug reports people actually act on**
 - ⚡ Fun fact: my favourite bugs are the ones that only show up on the second try
 
 ## 🧪 Selected Work
@@ -53,6 +60,7 @@ and [Puppeteer + Jest](https://github.com/Fritzie1860/basic-puppeteer-jest), plu
 
 ## 🌱 Currently Learning
 
+- 🤖 **Agentic AI in the testing workflow** — POC-ing where an agent can genuinely help with case generation and triage, and where it can't be trusted
 - 🚀 Running Playwright suites in CI so they actually gate a merge instead of running on my laptop
 - 🧱 Structuring specs and fixtures so a suite stays readable past 50 cases
 - 🔍 Reading test failures properly — telling a real regression apart from a flaky selector
@@ -72,8 +80,8 @@ and [Puppeteer + Jest](https://github.com/Fritzie1860/basic-puppeteer-jest), plu
 
 ## 📬 Get in Touch
 
-- 📧 [primanandafritzie@gmail.com](mailto:primanandafritzie@gmail.com)
-- 💼 <!-- TODO: link LinkedIn kamu di sini, recruiter lebih sering lewat sini daripada email -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fritzie-primananda/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:primanandafritzie@gmail.com)
 
 Thanks for stopping by. If you're building something and want a second pair of eyes on it,
 I'd love to hear about it. 🐛
